@@ -1,0 +1,38 @@
+.product-item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .product-details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0; /* Initially hide details */
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  }
+  
+  .product-item:hover .product-details {
+    opacity: 1; /* Show details on hover */
+  }
+  
+  .product-title,
+  .product-description {
+    margin: 0;
+  }
+  
+  .product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 14px;
+  }
+  

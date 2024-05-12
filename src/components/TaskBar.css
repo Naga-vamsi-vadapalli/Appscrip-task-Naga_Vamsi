@@ -1,0 +1,11 @@
+.task-bar {
+    width: 1440px;
+    height: 220px;
+    
+    background-color: black;
+    border: 1px solid #000; /* Border style: 1px solid black */
+    opacity: 0; /* Initially hide the task bar */
+  }
+  
+  
+  
